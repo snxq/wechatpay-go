@@ -6,7 +6,7 @@ package consts
 import "time"
 
 // 微信支付 API 地址
-const (
+var (
 	WechatPayAPIServer       = "https://api.mch.weixin.qq.com"  // 微信支付 API 地址
 	WechatPayAPIServerBackup = "https://api2.mch.weixin.qq.com" // 微信支付 API 备份地址
 )
